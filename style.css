@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.container-fluid{
+    display: flex;
+    justify-content: space-around !important;
+}
+
+.landing-page{
+    width: 40vw !important;
+    /* background-color: aquamarine; */
+    font-family: "Lora", serif;
+    margin: 2em;
+}
+
+.one{
+    width: 30vw !important;
+    /* background-color: blanchedalmond; */
+    flex-direction: column !important;
+    margin-top: 15px !important;
+    font-size: xx-large;
+}
+
+.one h1{
+    font-weight: bolder !important;
+}
+
+#one-button1{
+    padding: 20px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 20px !important;
+}
+
+.no3{
+    margin-top: 30px !important;
+}
+
+.text-no3{
+    width: 50vw !important;
+    border: 1px solid red !important;
+}
+
+.no3-article{
+    width: 80vw;
+}
+
+
+@media only screen and (max-width : 977px) {
+    .landing-page{
+       flex-direction: column !important;
+    }
+}
