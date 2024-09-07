@@ -1,32 +1,138 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 /* font-family: "Space Grotesk", sans-serif !important; */
 
-body{
+body {
     width: 100vw !important;
     height: 100vh !important;
     background-color: gray;
 }
-#nav-logo img{
+
+#nav-logo img {
     border: 1px solid red;
 }
+
 /*========================================== section 01 =============================*/
-.no1{
-    width: 90% !important;
+.no1 {
+    width: 90vw !important;
     font-family: "Space Grotesk", sans-serif !important;
     margin: 0 auto !important;
+    margin-top: 1em !important;
 }
-.no1 h1{
+
+.no-1-container {
+    width: 50vw !important;
+}
+
+.no1 h1 {
     font-size: 2.5em !important;
 }
-.no1 p{
+
+.no1 p {
     font-size: 1em !important;
 }
-.no1 button{
+
+.no1 button {
+    margin-top: 130px;
     padding: 1.3em 2.5em !important;
     border-radius: 20px !important;
 }
 
+.one-no4 {
+    width: 50vw !important;
+}
+
+.one-no4 img {
+    width: 100% !important;
+}
 
 
 /*======================================= @media screen =============================*/
 
+@media only screen and (max-width: 992px) {
+    .no1 h1 {
+        font-size: 1.7em !important;
+    }
+
+    .no1 p {
+        font-size: 0.8em !important;
+    }
+
+    .no1 button {
+        margin-top: 40px;
+        padding: 1.3em 2.5em !important;
+        border-radius: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    /* #nav-logo>img {
+        min-width: 220px !important;
+        max-width: 70px !important;
+    } */
+
+    .no1 {
+        flex-direction: column-reverse;
+    }
+
+    .no-1-container {
+        width: 80vw !important;
+    }
+
+    .one-no3 {
+        display: flex !important;
+        justify-content: center !important;
+        margin-top: -20px;
+    }
+
+    .no1 button {
+        padding: 1.3em 3.8em !important;
+    }
+
+    .one-no4 {
+        width: 90vw !important;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    #nav-logo>img {
+        width: 160px !important;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    #nav-logo>img {
+        width: 110px !important;
+    }
+    .no1 button {
+        margin-top: 8px !important;
+        padding: 0.4em 1.6em !important;
+    }
+    .navbar-toggler-icon{
+        font-size: 1em !important;
+    }
+}
+
+@media only screen and (max-width: 206px) {
+    body {
+        width: 110vw !important;
+    }
+
+    #nav-logo>img {
+        width: 90px !important;
+    }
+    .navbar-toggler-icon{
+        font-size: 0.6em !important;
+    }
+    
+.no1 h1 {
+    font-size: 1.4em !important;
+}
+
+.no1 p {
+    font-size: 0.7em !important;
+}
+
+.no1 button {
+    padding: 0.5em 1em !important;
+}
+}
