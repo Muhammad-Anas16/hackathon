@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+/* font-family: "Space Grotesk", sans-serif !important; */
 
+body{
+    width: 100vw !important;
+    height: 100vh !important;
+    background-color: gray;
+}
+#nav-logo img{
+    border: 1px solid red;
+}
 /*========================================== section 01 =============================*/
 .no1{
     width: 90% !important;
@@ -7,45 +16,17 @@
     margin: 0 auto !important;
 }
 .no1 h1{
-    font-size: 3em !important;
+    font-size: 2.5em !important;
 }
 .no1 p{
-    font-size: 1.2em !important;
+    font-size: 1em !important;
 }
 .no1 button{
     padding: 1.3em 2.5em !important;
     border-radius: 20px !important;
 }
 
-/*========================================== section 02 =============================*/
-.no2{
-    width: 95% !important;
-}
-.no2 ul li{
-    list-style: none !important;
-}
 
-/*========================================== section 03 =============================*/
 
-.no3{
-    width: 90%;
-    margin: 0 auto !important;
-}
-.no3-text-1{
-    font-size: 2em !important;
-    background-color: #B9FF66 !important;
-}
-.no3-text-2{
-    font-size: 1.2em !important;
-    margin-left: 15px !important;
-}
-
-/*========================================== section 04 =============================*/
-
-.card{
-    background-color: blue;
-    padding: 15px !important;
-}
-
-/*======================================= @media screen ==============================*/
+/*======================================= @media screen =============================*/
 
