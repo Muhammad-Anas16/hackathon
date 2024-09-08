@@ -2,29 +2,28 @@
 /* font-family: "Space Grotesk", sans-serif !important; */
 
 body {
-    width: 100vw !important;
-    height: 100vh !important;
-    /* background-color: gray; */
-}
-nav{
+    /* background-color: red; */
     width: 98vw !important;
-    margin: 0 auto !important;
+    overflow-x: hidden;
 }
 
-#nav-logo img {
-    /* border: 1px solid red; */
+nav {
+    width: 98vw !important;
+    /* margin: 0 auto !important; */
 }
+
+
 
 /*========================================== section 01 =============================*/
 .no1 {
     width: 90vw !important;
     font-family: "Space Grotesk", sans-serif !important;
-    margin: 0 auto !important;
     margin-top: 1em !important;
+
 }
 
 .no-1-container {
-    width: 50vw !important;
+    width: 45vw !important;
 }
 
 .no1 h1 {
@@ -42,7 +41,7 @@ nav{
 }
 
 .one-no4 {
-    width: 50vw !important;
+    width: 40vw !important;
 }
 
 .one-no4 img {
@@ -51,23 +50,98 @@ nav{
 
 /* ====================================== section 02 ================================*/
 
-.no2{
+.no2 {
     width: 90vw !important;
     font-family: "Space Grotesk", sans-serif !important;
     margin: 0 auto !important;
     margin-top: 1em !important;
     /* background-color: blueviolet; */
 }
-.no2 ul{
+
+.no2 ul {
     margin-left: -40px;
 }
-.no2 li{
+
+.no2 li {
     width: 90px;
-    margin-left: 50px;
+    margin: 0 23px;
     list-style: none;
 }
-.no2 li img{
+
+.no2 li img {
     width: 100%;
+}
+
+/* ====================================== section 03 ================================*/
+
+.no3 {
+    width: 90vw !important;
+    margin: 0 auto !important;
+    margin-top: 1em !important;
+}
+
+.no3-heading>a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 900;
+    border: 8px soli #B9FF66;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.no3-text {
+    width: 55vw;
+}
+
+/* ====================================== section 04 ================================*/
+.no4 {
+    margin-top: 1.5em;
+    width: 90vw;
+}
+
+.no4-box {
+    width: 100%;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 15px !important;
+    box-shadow: rgba(0, 0, 0) 0px 3px;
+    height: 12em;
+}
+
+.card-body {
+    /* border: 1px solid greenyellow; */
+    width: 40% !important;
+}
+
+.card-text {
+    display: inline-block !important;
+}
+
+.no4 .img {
+    width: 50% !important;
+}
+
+.no4 img {
+    width: 100%;
+}
+
+.no4 a {
+    color: black;
+    text-decoration: none;
+}
+
+.no4 a p {
+    font-size: 10px;
+}
+
+.card-body p {
+    font-size: small;
+    margin-left: 5px;
 }
 
 /*======================================= @media screen =============================*/
@@ -86,18 +160,37 @@ nav{
         padding: 1.3em 2.5em !important;
         border-radius: 20px !important;
     }
+
+    .no3-text {
+        margin-top: 1em;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
-@media only screen and (max-width: 769px){
-    nav{
+@media only screen and (max-width: 769px) {
+    nav {
         width: 100vw;
     }
-    .no2{
+
+    .no2 {
         justify-content: center;
         flex-direction: column;
     }
-    .no2 li{
+
+    .no2 li {
         margin-left: 10px;
+    }
+
+    .no3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .no4{
+        margin: 0 auto !important;
     }
 }
 
@@ -105,25 +198,42 @@ nav{
     #nav-logo>img {
         width: 160px !important;
     }
+
     .no1 {
         flex-direction: column-reverse;
     }
+
     .no-1-container {
         width: 80vw !important;
     }
+
+    .no2 ul {
+        flex-wrap: wrap;
+    }
+
     .one-no3 {
         display: flex !important;
         justify-content: center !important;
         margin-top: -20px;
     }
+
     .no1 button {
         padding: 1.3em 3.8em !important;
     }
+
     .one-no4 {
         width: 90vw !important;
     }
-    .no2 ul{
+
+    .no2 ul {
         margin-left: -40px;
+    }
+    .no4-box{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .card{
+        width: 100% !important;
     }
 }
 
@@ -131,11 +241,13 @@ nav{
     #nav-logo>img {
         width: 110px !important;
     }
+
     .no1 button {
         margin-top: 8px !important;
         padding: 0.4em 1.6em !important;
     }
-    .navbar-toggler-icon{
+
+    .navbar-toggler-icon {
         font-size: 1em !important;
     }
 }
@@ -148,19 +260,20 @@ nav{
     #nav-logo>img {
         width: 90px !important;
     }
-    .navbar-toggler-icon{
+
+    .navbar-toggler-icon {
         font-size: 0.6em !important;
     }
-    
-.no1 h1 {
-    font-size: 1.4em !important;
-}
 
-.no1 p {
-    font-size: 0.7em !important;
-}
+    .no1 h1 {
+        font-size: 1.4em !important;
+    }
 
-.no1 button {
-    padding: 0.5em 1em !important;
-}
+    .no1 p {
+        font-size: 0.7em !important;
+    }
+
+    .no1 button {
+        padding: 0.5em 1em !important;
+    }
 }
