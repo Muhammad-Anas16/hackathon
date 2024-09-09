@@ -175,6 +175,26 @@ nav {
     width: 75% !important;
 }
 
+/* ====================================== section 09 ================================*/
+
+.no9 .card{
+    margin: 0 auto !important;
+    width: 95% !important;
+    margin-bottom: 1.5em !important;
+}
+
+.card-header-container-box{
+    width: 90%;
+}
+
+.card-header-container-box .card-text{
+    margin-left: 0.5em !important;
+}
+
+.no9 .blockquote{
+    width: 200% !important;
+}
+
 
 
 /*======================================= @media screen =============================*/
@@ -221,17 +241,23 @@ nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
-    /* .no4{
-        margin: 0 auto !important;
-    } */
+    .no3 .no3-text{
+        width: 95% !important;
+    }
+
     .no4 .card {
         width: 18em !important;
     }
 
     .no4 .card .container {
         width: 16em !important;
+    }
+
+    .no7 .card{
+        margin-top: 2em;
     }
 }
 
@@ -301,7 +327,6 @@ nav {
     }
 
     .no5 {
-        background-color: tomato;
         overflow-x: hidden;
     }
 
@@ -319,6 +344,22 @@ nav {
     }
 
     .no5 img {
+        display: none;
+    }
+    
+    .no7 {
+        overflow-x: hidden;
+        justify-content: center !important;
+    }
+
+    .no7 .card {
+        width: 90% !important;
+    }
+
+    .no7 .card-body {
+        width: 90% !important;
+    }
+    .no9 .card .card-body {
         display: none;
     }
 }
@@ -346,6 +387,25 @@ nav {
         width: 90%;
         height: 70%;
     }
+    
+    .no5 .card {
+        overflow: hidden;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        width: 95% !important;
+        /* margin: 0 auto !important; */
+    }
+
+    .no5 .card-body {
+        margin-left: -10px !important;
+        width: 70% !important;
+    }
+
+    .no5 button {
+        padding-left: 1em !important;
+        padding-right: 1em !important;
+    }
 }
 
 @media only screen and (max-width: 250px) {
@@ -367,8 +427,29 @@ nav {
     }
 
     .card .container {
-        width: 90% !important;
+        width: 95% !important;
     }
+
+    .no3 .no3-text{
+        width: 100% !important;
+    }
+    
+    .no5 .card-body {
+        width: 210em !important;
+        margin-left: -10px !important;
+        font-size: 0.7em !important;
+    }
+
+    .no5 button {
+        font-size: 0.7em !important;
+        padding-left: 1em !important;
+        padding-right: 1em !important;
+    }
+
+    .no9 .card-header-container-box{
+        font-size: 0.5em !important;
+    }
+
 }
 
 @media only screen and (max-width: 206px) {
