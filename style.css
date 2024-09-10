@@ -177,54 +177,90 @@ nav {
 
 /* ====================================== section 09 ================================*/
 
-.no9 .card{
+.no9 .card {
     margin: 0 auto !important;
     width: 95% !important;
     margin-bottom: 1.5em !important;
 }
 
-.card-header-container-box{
+.card-header-container-box {
     width: 90%;
 }
 
-.card-header-container-box .card-text{
+.card-header-container-box .card-text {
     margin-left: 0.5em !important;
 }
 
-.no9 .blockquote{
+.no9 .blockquote {
     width: 200% !important;
 }
 
 /* ====================================== section 11 ================================*/
+.no11 .card {
+    margin: 1em 0 !important;
+}
 
-.no11 .card-body{
+.no11 .card-body {
     width: 100% !important;
 }
-.no11 .card-body .img-Name{
+
+.no11 .card-body .img-Name {
     width: 70% !important;
 }
 
-.no11 .card-body .card-title{
+.no11 .card-body .card-title {
     width: 90% !important;
 }
 
-.no11 .card-body .img-Name img{
+.no11 .card-body .img-Name img {
     width: 50% !important;
 }
 
-.no11 .icon{
+.no11 .icon {
     width: 8% !important;
 }
 
-.no11 .icon img{
+.no11 .icon img {
     width: 100% !important;
 }
 
-.no11 .card-text{
-    background-color: blueviolet;
+.no11 .card-text {
     width: 100% !important;
 }
 
+/* ====================================== section 13 ================================*/
+
+
+
+/* ====================================== section 15 ================================*/
+.no15 {
+    background-color: burlywood;
+}
+
+.no15 .form-page {
+    width: 90% !important;
+    /* height: 70vh !important; */
+    background-color: #F3F3F3;
+    margin-top: 1.8em !important;
+    padding: 1em !important;
+    border-radius: 23px !important;
+}
+
+.no15 form {
+    padding-top: 3em !important;
+    margin-left: 2em !important;
+    width: 30% !important;
+}
+
+.no15-side-img {
+    width: 40% !important;
+}
+
+.no15-side-img img {
+    width: 100% !important;
+}
+
+/* ==================================== section complete ===========================*/
 
 
 
@@ -275,7 +311,7 @@ nav {
         width: 100%;
     }
 
-    .no3 .no3-text{
+    .no3 .no3-text {
         width: 95% !important;
     }
 
@@ -287,8 +323,28 @@ nav {
         width: 16em !important;
     }
 
-    .no7 .card{
+    .no7 .card {
         margin-top: 2em;
+    }
+
+    .no11-first-container {
+        flex-wrap: wrap;
+    }
+
+    .no11-second-container {
+        flex-wrap: wrap;
+    }
+
+    .no15 form {
+        width: 50% !important;
+    }
+
+    .no15-side-img {
+        display: none !important;
+    }
+
+    .no15-side-img img {
+        display: none !important;
     }
 }
 
@@ -377,7 +433,7 @@ nav {
     .no5 img {
         display: none;
     }
-    
+
     .no7 {
         overflow-x: hidden;
         justify-content: center !important;
@@ -390,6 +446,7 @@ nav {
     .no7 .card-body {
         width: 90% !important;
     }
+
     .no9 .card .card-body {
         display: none;
     }
@@ -418,7 +475,7 @@ nav {
         width: 90%;
         height: 70%;
     }
-    
+
     .no5 .card {
         overflow: hidden;
         /* display: flex;
@@ -461,10 +518,10 @@ nav {
         width: 95% !important;
     }
 
-    .no3 .no3-text{
+    .no3 .no3-text {
         width: 100% !important;
     }
-    
+
     .no5 .card-body {
         width: 210em !important;
         margin-left: -10px !important;
@@ -477,7 +534,7 @@ nav {
         padding-right: 1em !important;
     }
 
-    .no9 .card-header-container-box{
+    .no9 .card-header-container-box {
         font-size: 0.5em !important;
     }
 
