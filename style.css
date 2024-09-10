@@ -195,6 +195,37 @@ nav {
     width: 200% !important;
 }
 
+/* ====================================== section 11 ================================*/
+
+.no11 .card-body{
+    width: 100% !important;
+}
+.no11 .card-body .img-Name{
+    width: 70% !important;
+}
+
+.no11 .card-body .card-title{
+    width: 90% !important;
+}
+
+.no11 .card-body .img-Name img{
+    width: 50% !important;
+}
+
+.no11 .icon{
+    width: 8% !important;
+}
+
+.no11 .icon img{
+    width: 100% !important;
+}
+
+.no11 .card-text{
+    background-color: blueviolet;
+    width: 100% !important;
+}
+
+
 
 
 /*======================================= @media screen =============================*/
